@@ -1,0 +1,3 @@
+include:
+  - board: harper_left
+  - board: harper_right
