@@ -48,7 +48,7 @@
 &kp ESC    &kp EXCLAMATION  &kp AT_SIGN       &kp DOLLAR  &kp PERCENT  &kp CARET                     &kp AMPERSAND         &kp ASTERISK    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp ESC        &kp ESC
 &kp ENTER  &kp EXCLAMATION  &kp LEFT_BRACKET  &kp PLUS    &kp MINUS    &kp RIGHT_PARENTHESIS         &kp RIGHT_BRACE       &kp UNDER       &kp EQUAL             &kp RIGHT_BRACKET      &kp AMPERSAND  &kp NON_US_BACKSLASH
 &kp ESC    &kp ESC          &kp ESC           &kp ESC     &kp ESC      &kp ESC                       &kp ESC               &kp ESC         &kp ESC               &kp ESC                &kp ESC        &kp ESC
-&kp ESC    &kp ESC          &kp ESC           &kp ESC     &kp ESC      &kp ESC                &mo 1  &kp LEFT_PARENTHESIS  &kp LEFT_BRACE  &mo 0                 &kp SPACE              &kp ESC        &kp ESC               &kp ESC
+&kp ESC    &kp ESC          &kp ESC           &kp ESC     &kp ESC      &kp ESC                &mo 1  &kp LEFT_PARENTHESIS  &kp LEFT_BRACE  &kp LEFT_PARENTHESIS  &kp LEFT_BRACE         &kp ESC        &kp ESC               &kp ESC
                                                                                                      &kp ESC                                                                                                                 &kp ESC
             >;
         };
