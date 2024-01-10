@@ -33,12 +33,12 @@
 
         symbols {
             bindings = <
-&kp ESC    &kp ESC          &kp ESC           &kp ESC     &kp ESC      &kp ESC                       &kp ESC               &kp ESC         &kp ESC               &kp ESC                &kp ESC        &kp ESC
-&kp ESC    &kp EXCLAMATION  &kp AT_SIGN       &kp DOLLAR  &kp PERCENT  &kp CARET                     &kp AMPERSAND         &kp ASTERISK    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp ESC        &kp ESC
-&kp ENTER  &kp EXCLAMATION  &kp LEFT_BRACKET  &kp PLUS    &kp MINUS    &kp RIGHT_PARENTHESIS         &kp RIGHT_BRACE       &kp UNDER       &kp EQUAL             &kp RIGHT_BRACKET      &kp AMPERSAND  &kp NON_US_BACKSLASH
-&kp ESC    &kp ESC          &kp ESC           &kp ESC     &kp ESC      &kp ESC                       &kp ESC               &kp ESC         &kp ESC               &kp ESC                &kp ESC        &kp ESC
-&kp ESC    &kp ESC          &kp ESC           &kp ESC     &kp ESC      &kp ESC                &mo 0  &kp LEFT_PARENTHESIS  &kp LEFT_BRACE  &kp LEFT_PARENTHESIS  &kp LEFT_BRACE         &kp ESC        &kp ESC               &kp ESC
-                                                                                                     &kp ESC                                                                                                                 &kp ESC
+&kp ESC    &kp ESC          &kp ESC           &kp ESC     &kp ESC      &kp ESC                &kp ESC               &kp ESC         &kp ESC               &kp ESC                &kp ESC        &kp ESC
+&kp ESC    &kp EXCLAMATION  &kp AT_SIGN       &kp DOLLAR  &kp PERCENT  &kp CARET              &kp AMPERSAND         &kp ASTERISK    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp ESC        &kp ESC
+&kp ENTER  &kp EXCLAMATION  &kp LEFT_BRACKET  &kp PLUS    &kp MINUS    &kp LEFT_ARROW         &kp RIGHT_ARROW       &kp UNDER       &kp EQUAL             &kp RIGHT_BRACKET      &kp AMPERSAND  &kp NON_US_BACKSLASH
+&kp ESC    &kp ESC          &kp ESC           &kp ESC     &kp ESC      &kp ESC                &kp ESC               &kp ESC         &kp ESC               &kp ESC                &kp ESC        &kp ESC
+&kp ESC    &kp ESC          &kp ESC           &kp ESC     &kp ESC      &kp ESC         &mo 0  &kp LEFT_PARENTHESIS  &kp LEFT_BRACE  &kp DOWN_ARROW        &kp UP_ARROW           &kp ESC        &kp ESC               &kp ESC
+                                                                                              &kp ESC                                                                                                                 &kp ESC
             >;
         };
     };
