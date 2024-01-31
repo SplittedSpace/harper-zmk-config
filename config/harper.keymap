@@ -32,7 +32,7 @@
         symbols {
             bindings = <
 &kp F1             &kp F2        &kp F3          &kp F4        &kp F5        &kp F6             &kp F7          &kp F8          &kp F9        &kp F10         &kp F11           &kp ESC
-&kp RIGHT_BRACKET  &kp ESCAPE    &kp LEFT_ARROW  &kp RIGHT     &kp ESCAPE    &kp ESCAPE         &kp ESC         &kp ESCAPE      &kp MINUS     &kp EQUAL       &kp EQUAL         &kp LEFT_BRACKET
+&kp RIGHT_BRACKET  &none         &kp LEFT_ARROW  &kp RIGHT     &kp ESCAPE    &kp ESCAPE         &kp ESC         &kp ESCAPE      &kp MINUS     &kp EQUAL       &kp EQUAL         &kp LEFT_BRACKET
 &kp ENTER          &kp NUMBER_1  &kp NUMBER_2    &kp NUMBER_3  &kp NUMBER_4  &kp N5             &kp NUMBER_6    &kp N7          &kp N8        &kp N9          &kp N0            &kp NON_US_BACKSLASH
 &kp ESC            &kp ESC       &kp ESC         &kp UP_ARROW  &kp ESC       &kp ESC            &kp ESC         &kp ESC         &kp ESC       &kp ESC         &kp DOWN          &kp ESC
 &kp ESC            &kp ESC       &kp ESC         &kp ESC       &kp ESC       &kp ESC     &mo 0  &kp LEFT_SHIFT  &kp DOWN_ARROW  &kp LEFT_ALT  &kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LEFT_CONTROL      &kp ESC
@@ -42,12 +42,12 @@
 
         keyboard {
             bindings = <
-&trans      &trans         &trans         &trans         &trans         &trans                 &trans           &trans           &trans           &trans           &trans           &trans
-&trans      &bt BT_DISC 0  &bt BT_DISC 1  &bt BT_DISC 2  &bt BT_DISC 3  &bt BT_DISC 4          &trans           &trans           &trans           &trans           &trans           &trans
-&bt BT_CLR  &bt BT_SEL 0   &bt BT_SEL 1   &bt BT_SEL 2   &bt BT_SEL 3   &bt BT_SEL 4           &rgb_ug RGB_TOG  &rgb_ug RGB_EFF  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &rgb_ug RGB_SAI  &rgb_ug RGB_SAD
-&trans      &trans         &trans         &trans         &trans         &trans                 &trans           &trans           &trans           &rgb_ug RGB_SPI  &rgb_ug RGB_SPD  &trans
-&trans      &trans         &trans         &trans         &trans         &trans         &trans  &trans           &trans           &trans           &trans           &trans           &trans           &trans
-                                                                                               &trans                                                                                                &trans
+&trans  &trans         &trans         &trans         &trans         &trans                 &trans           &trans           &trans           &trans           &trans           &trans
+&trans  &bt BT_DISC 0  &bt BT_DISC 1  &bt BT_DISC 2  &bt BT_DISC 3  &bt BT_DISC 4          &trans           &trans           &trans           &trans           &trans           &trans
+&none   &bt BT_SEL 0   &bt BT_SEL 1   &bt BT_SEL 2   &bt BT_SEL 3   &bt BT_SEL 4           &rgb_ug RGB_TOG  &rgb_ug RGB_EFF  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &rgb_ug RGB_SAI  &rgb_ug RGB_SAD
+&trans  &trans         &trans         &trans         &trans         &trans                 &trans           &trans           &trans           &rgb_ug RGB_SPI  &rgb_ug RGB_SPD  &trans
+&trans  &trans         &trans         &trans         &trans         &trans         &trans  &trans           &trans           &trans           &trans           &trans           &trans           &trans
+                                                                                           &trans                                                                                                &trans
             >;
         };
     };
