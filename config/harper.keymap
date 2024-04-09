@@ -18,10 +18,10 @@
 
         default {
             bindings = <
-&kp ESC            &kp N1        &kp N2                &kp N3                &kp N4  &kp N5                       &kp N6                 &kp N7  &kp N8     &kp N9     &kp N0          &none
+&kp F1             &kp F2        &kp F3                &kp F4                &kp F5  &kp F6                       &kp F7                 &kp F8  &kp F9     &kp F10    &kp F11         &kp F12
 &kp RIGHT_BRACKET  &kp Q         &kp W                 &kp E                 &kp R   &kp T                        &kp Y                  &kp U   &kp I      &kp O      &kp P           &kp LEFT_BRACKET
 &kp TAB            &kp A         &kp S                 &kp D                 &kp F   &kp G                        &kp H                  &kp J   &kp K      &kp L      &kp SEMI        &kp SQT
-&kp LEFT_WIN       &kp Z         &kp X                 &kp C                 &kp V   &kp B                        &kp C_MUTE             &none   &kp N      &kp M      &kp COMMA       &kp DOT
+&kp ESCAPE         &kp Z         &kp X                 &kp C                 &kp V   &kp B                        &kp C_MUTE             &none   &kp N      &kp M      &kp COMMA       &kp DOT
 &kp FSLH           &kp LEFT_WIN  &kp LEFT_PARENTHESIS  &kp LEFT_PARENTHESIS  &mo 2   &kp LEFT_ALT  &kp BACKSPACE  &kp LEFT_SHIFT         &mo 1   &kp ENTER  &kp SPACE  &kp LEFT_BRACE  &kp LCTRL         &mo 2
                                                                                                                   &kp RIGHT_PARENTHESIS                                                                  &kp RIGHT_PARENTHESIS
             >;
@@ -34,7 +34,7 @@
 &kp F1             &kp F2        &kp F3          &kp F4        &kp F5        &kp F6             &kp F7          &kp F8          &kp F9     &kp F10         &kp F11           &kp ESC
 &kp RIGHT_BRACKET  &none         &kp LEFT_ARROW  &kp RIGHT     &kp ESCAPE    &kp ESCAPE         &kp ESC         &kp ESCAPE      &kp MINUS  &kp EQUAL       &kp EQUAL         &kp LEFT_BRACKET
 &kp ENTER          &kp NUMBER_1  &kp NUMBER_2    &kp NUMBER_3  &kp NUMBER_4  &kp N5             &kp NUMBER_6    &kp N7          &kp N8     &kp N9          &kp N0            &kp NON_US_BACKSLASH
-&kp ESC            &kp ESC       &kp ESC         &kp UP_ARROW  &kp ESC       &kp ESC            &kp ESC         &kp ESC         &kp ESC    &kp ESC         &kp DOWN          &kp ESC
+&kp ESC            &kp ESC       &kp ESC         &kp UP_ARROW  &kp ESC       &kp ESC            &kp ESC         &kp ESC         &kp ESC    &kp ESC         &kp DOWN          &kp UP_ARROW
 &kp ESC            &kp ESC       &kp ESC         &kp ESC       &kp ESC       &kp ESC     &mo 0  &kp LEFT_SHIFT  &kp DOWN_ARROW  &kp ENTER  &kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LEFT_CONTROL      &kp ESC
                                                                                                 &kp ESC                                                                                            &kp ESC
             >;
