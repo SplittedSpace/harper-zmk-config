@@ -18,12 +18,12 @@
 
         default {
             bindings = <
-&kp F1             &kp F2        &kp F3                &kp F4                &kp F5  &kp F6                       &kp F7                 &kp F8  &kp F9     &kp F10    &kp F11         &kp F12
-&kp RIGHT_BRACKET  &kp Q         &kp W                 &kp E                 &kp R   &kp T                        &kp Y                  &kp U   &kp I      &kp O      &kp P           &kp LEFT_BRACKET
-&kp TAB            &kp A         &kp S                 &kp D                 &kp F   &kp G                        &kp H                  &kp J   &kp K      &kp L      &kp SEMI        &kp SQT
-&kp ESCAPE         &kp Z         &kp X                 &kp C                 &kp V   &kp B                        &kp C_MUTE             &none   &kp N      &kp M      &kp COMMA       &kp DOT
-&kp FSLH           &kp LEFT_WIN  &kp LEFT_PARENTHESIS  &kp LEFT_PARENTHESIS  &mo 2   &kp LEFT_ALT  &kp BACKSPACE  &kp LEFT_SHIFT         &mo 1   &kp ENTER  &kp SPACE  &kp LEFT_BRACE  &kp LCTRL         &mo 2
-                                                                                                                  &kp RIGHT_PARENTHESIS                                                                  &kp RIGHT_PARENTHESIS
+&kp F1             &kp F2        &kp F3                &kp F4                &kp F5  &kp F6                       &kp F7                 &kp F8  &kp F9     &kp F10    &kp F11           &kp F12
+&kp RIGHT_BRACKET  &kp Q         &kp W                 &kp E                 &kp R   &kp T                        &kp Y                  &kp U   &kp I      &kp O      &kp P             &kp LEFT_BRACKET
+&kp TAB            &kp A         &kp S                 &kp D                 &kp F   &kp G                        &kp H                  &kp J   &kp K      &kp L      &kp SEMI          &kp SQT
+&kp ESCAPE         &kp Z         &kp X                 &kp C                 &kp V   &kp B                        &kp C_MUTE             &none   &kp N      &kp M      &kp COMMA         &kp DOT
+&kp FSLH           &kp LEFT_WIN  &kp LEFT_PARENTHESIS  &kp LEFT_PARENTHESIS  &mo 2   &kp LEFT_ALT  &kp BACKSPACE  &kp LEFT_SHIFT         &mo 1   &kp ENTER  &kp SPACE  &kp LEFT_BRACKET  &kp LCTRL         &mo 2
+                                                                                                                  &kp RIGHT_PARENTHESIS                                                                    &kp RIGHT_PARENTHESIS
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp PG_DN PG_UP>;
