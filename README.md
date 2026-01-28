@@ -1,1 +1,1 @@
-# ZMK Layot for SplittedSpace Harper keyboard
+# ZMK Layot for Harper keyboard by splitted.space
